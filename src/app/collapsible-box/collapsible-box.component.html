@@ -1,0 +1,14 @@
+<div class="box-title" (click)="toggle()">
+  <span>
+    {{label}}
+  </span>
+
+  <span>
+    <span *ngIf="open">^</span>
+    <span *ngIf="!open">v</span>
+  </span>
+</div>
+
+<div [@toggle]="state" class="content">
+  <ng-content></ng-content>
+</div>

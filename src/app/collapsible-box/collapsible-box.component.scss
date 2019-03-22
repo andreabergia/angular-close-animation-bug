@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  padding: 0;
+  border: 1px solid gray;
+  width: 300px;
+}
+
+.box-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202020;
+  color: white;
+  height: 30px;
+}
